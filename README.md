@@ -8,7 +8,6 @@ Estrutura da Lógica :
     STOP_LOSS = Decimal(input("📉 % de stop loss: ")) Aqui voce pode colocar um stop loos, ou seja, se pelo menos tiver a porcentagem inserida aqui ele vende para dar lucro, e nao ter percas severas
     INTERVALO = float(input("⏲️ Intervalo entre operações (min): ")) * 60  ( Aqui voce deve inserir o intervalo para ele ficar monitirando o mercado, EX: 0,30 quer dizer: 30 minutos, o recomendado é a cada 04 horas )
 
-    -----  MAIS OBSERVAÇÕES ------
 
 # - Comandos do Telegram: /pausar, /retomar, /status, /relatorio
 # - Registro de histórico de compras, vendas, lucros em USD
